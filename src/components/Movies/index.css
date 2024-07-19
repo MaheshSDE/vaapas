@@ -1,4 +1,6 @@
 .moviesContainer {
+  background-image: url('https://img.freepik.com/premium-photo/flying-popcorn-tickets-black-background-with-copy-space-exciting-night-theater_324489-6744.jpg?w=1380');
+  background-size: cover;
   background-color: #4a4746;
   min-height: 85vh;
   width: 100%;
