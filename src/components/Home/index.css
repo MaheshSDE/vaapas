@@ -1,0 +1,53 @@
+.bg-container {
+  background-image: url('https://img.freepik.com/premium-photo/flying-popcorn-tickets-black-background-with-copy-space-exciting-night-theater_324489-6744.jpg?w=1380');
+  background-size: cover;
+  height: 85vh;
+  padding-top: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-left: 40px;
+  }
+}
+.homeHeading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.homePara {
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: aliceblue;
+  font-size: 15px;
+}
+
+.button {
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #a67651;
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Roboto';
+}
+.searchImageContainer {
+  width: 80%;
+}
+.search-image {
+  margin-top: 10px;
+  height: 80vh;
+  width: 100%;
+  border-radius: 20px;
+}
